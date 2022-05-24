@@ -1,0 +1,27 @@
+.home {
+    .header-1 {
+        background-image: url('../../assets/imgs/bg-1.webp');
+        min-height: 768px;
+    }
+
+    .nav-primary {
+        min-width: 477px;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+
+        a {
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                font-weight: 700;
+            }
+        }
+    }
+
+    .container-about {
+        min-height: 544px;
+        display: flex;
+        align-items: center;
+    }
+}
