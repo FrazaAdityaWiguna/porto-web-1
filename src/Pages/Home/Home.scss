@@ -24,4 +24,12 @@
         display: flex;
         align-items: center;
     }
+
+    .contianer-skill {
+        min-height: 695px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: #FFFAF2;
+    }
 }

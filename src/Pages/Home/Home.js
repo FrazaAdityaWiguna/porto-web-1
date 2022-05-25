@@ -59,6 +59,51 @@ const Home = () => {
             </p>
           </div>
         </section>
+
+        <section className="contianer-skill contianer max-w-screen-xl mx-auto w-full">
+          <div>
+            <h3 className="utils fz-24 fw-700 color-gray-1 mb-20">Skill</h3>
+            <div className="grid grid-cols-2 grid-rows-1">
+              <div>
+                <img src="/assets/imgs/profile-1.webp" alt="Profile" />
+              </div>
+              <div className="flex flex-col justify-between">
+                <div className="flex">
+                  <h3 className="utils fz-18 color-gray-1 fw-600 w-170">Profile</h3>
+                  <p className="utils fz-18 color-gray-1">
+                    Fullstack Developer
+                  </p>
+                </div>
+                <div className="flex flex-col">
+                  <div className="mb-5 flex">
+                    <h3 className="utils fz-18 color-gray-1 fw-600 w-170">Frontend Dev</h3>
+                    <div className="bg-brown-600 w-full utils max-w-445">
+                      <div className="utils bg-brown-700 w-96 h-full" />
+                    </div>
+                  </div>
+                  <div className="mb-5 flex">
+                    <h3 className="utils fz-18 color-gray-1 fw-600 w-170">Tools</h3>
+                    <p className="utils fz-18 color-gray-1">
+                      HTML, CSS, JS ,Bootstrap, React, and others.
+                    </p>
+                  </div>
+                  <div className="mb-5 flex">
+                    <h3 className="utils fz-18 color-gray-1 fw-600 w-170">Backend Dev</h3>
+                    <div className="bg-brown-600 w-full utils max-w-445">
+                      <div className="utils bg-brown-700 w-52 h-full" />
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <h3 className="utils fz-18 color-gray-1 fw-600 w-170">Tools</h3>
+                    <p className="utils fz-18 color-gray-1">
+                      Python, Node Js, PHP
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );
