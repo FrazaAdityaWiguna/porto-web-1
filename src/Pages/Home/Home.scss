@@ -39,4 +39,21 @@
         justify-content: center;
         align-items: center;
     }
+
+    footer {
+        min-height: 528px;
+        align-items: center;
+
+        ul li {
+            margin-bottom: 14px;
+            
+            a {
+                font-family: 'Libre Franklin';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                color: #333333;
+            }
+        }
+    }
 }

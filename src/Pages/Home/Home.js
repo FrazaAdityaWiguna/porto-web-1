@@ -136,6 +136,55 @@ const Home = () => {
             </div>
           </div>
         </section>
+
+        <footer className="contianer max-w-screen-xl mx-auto w-full">
+          <div>
+            <h3 className="utils fz-24 fw-700 color-gray-1 mb-20">
+              Get in Touch
+            </h3>
+            <div className="grid grid-cols-3">
+              <div>
+                <ul>
+                  <li>
+                    <a href="#">Dribble</a>
+                  </li>
+                  <li>
+                    <a href="#">Behance</a>
+                  </li>
+                  <li>
+                    <a href="#">CodePen</a>
+                  </li>
+                  <li>
+                    <a href="#">GitHub</a>
+                  </li>
+                  <li>
+                    <a href="#">Medium</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>
+                    <a href="#">Linkedin</a>
+                  </li>
+                  <li>
+                    <a href="#">Facebook</a>
+                  </li>
+                  <li>
+                    <a href="#">Instagram</a>
+                  </li>
+                  <li>
+                    <a href="#">Twitter</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <div className="mb-5">frazaadityawiguna@gmail.com</div>
+                <div>+62895411904001</div>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </>
   );
