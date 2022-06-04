@@ -32,4 +32,11 @@
         flex-direction: column;
         background: #FFFAF2;
     }
+
+    .container-portfolio {
+        min-height: 822px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

@@ -60,8 +60,8 @@ const Home = () => {
           </div>
         </section>
 
-        <section className="contianer-skill contianer max-w-screen-xl mx-auto w-full">
-          <div>
+        <section className="contianer-skill">
+          <div className="contianer max-w-screen-xl mx-auto w-full">
             <h3 className="utils fz-24 fw-700 color-gray-1 mb-20">Skill</h3>
             <div className="grid grid-cols-2 grid-rows-1">
               <div>
@@ -69,37 +69,69 @@ const Home = () => {
               </div>
               <div className="flex flex-col justify-between">
                 <div className="flex">
-                  <h3 className="utils fz-18 color-gray-1 fw-600 w-170">Profile</h3>
+                  <h3 className="utils fz-18 color-gray-1 fw-600 w-170">
+                    Profile
+                  </h3>
                   <p className="utils fz-18 color-gray-1">
                     Fullstack Developer
                   </p>
                 </div>
                 <div className="flex flex-col">
                   <div className="mb-5 flex">
-                    <h3 className="utils fz-18 color-gray-1 fw-600 w-170">Frontend Dev</h3>
+                    <h3 className="utils fz-18 color-gray-1 fw-600 w-170">
+                      Frontend Dev
+                    </h3>
                     <div className="bg-brown-600 w-full utils max-w-445">
                       <div className="utils bg-brown-700 w-96 h-full" />
                     </div>
                   </div>
                   <div className="mb-5 flex">
-                    <h3 className="utils fz-18 color-gray-1 fw-600 w-170">Tools</h3>
+                    <h3 className="utils fz-18 color-gray-1 fw-600 w-170">
+                      Tools
+                    </h3>
                     <p className="utils fz-18 color-gray-1">
                       HTML, CSS, JS ,Bootstrap, React, and others.
                     </p>
                   </div>
                   <div className="mb-5 flex">
-                    <h3 className="utils fz-18 color-gray-1 fw-600 w-170">Backend Dev</h3>
+                    <h3 className="utils fz-18 color-gray-1 fw-600 w-170">
+                      Backend Dev
+                    </h3>
                     <div className="bg-brown-600 w-full utils max-w-445">
                       <div className="utils bg-brown-700 w-52 h-full" />
                     </div>
                   </div>
                   <div className="flex">
-                    <h3 className="utils fz-18 color-gray-1 fw-600 w-170">Tools</h3>
+                    <h3 className="utils fz-18 color-gray-1 fw-600 w-170">
+                      Tools
+                    </h3>
                     <p className="utils fz-18 color-gray-1">
                       Python, Node Js, PHP
                     </p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="container-portfolio">
+          <div className="contianer max-w-screen-xl mx-auto w-full">
+            <h3 className="utils fz-24 fw-700 color-gray-1 mb-20">Portfolio</h3>
+            <div className="grid grid-cols-2 grid-rows-1">
+              <div>
+                <h4 className="utils fz-24 fw-600 color-gray-1 mb-10">
+                  UX Research
+                </h4>
+                <p className="utils max-w-400 fz-18 color-gray-1">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac
+                  dictum nibh nam odio cursus id. Diam massa semper a tincidunt
+                  cursus ultricies lectus eget urna.
+                </p>
+              </div>
+
+              <div>
+                <img src="./assets/imgs/ux-full.webp" alt="Porto" />
               </div>
             </div>
           </div>
